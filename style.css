@@ -24,11 +24,10 @@ button:hover {
 }
 
 .card p {
-    margin: 0; /* Supprime la marge du paragraphe interne */
+    margin: 0; 
     margin-top: 10px;
 }
 
-/* Style pour les boutons à l'intérieur de la carte */
 .card button {
     padding: 10px 20px;
     font-size: 16px;
