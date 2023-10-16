@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+    <title>Interface HTA</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <hta:application
+        id="exaApp"
+        applicationname="Exécution de Commande HTA"
+        BORDER="thick"
+        borderstyle="normal"
+        icon="https://example.com/favicon.ico"
+        maxbutton="yes"
+        minbutton="yes"
+        scroll="yes"
+        singleinstance="yes"
+        sysmenu="yes"
+        NAVIGABLE="yes"
+        InnerWidth="400" 
+        InnerHeight="1000"
+    >
+</head>
+<body>
+    <div class="container">
+        <h1>Scripts</h1>
+        <div class="card">
+            <div id="script-container"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
